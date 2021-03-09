@@ -126,6 +126,25 @@ nav {
         max-width: 75rem;
         margin: 0 auto;
     }
+
+    .menu-icon {
+        display: none;
+    }
+
+    header nav {
+        max-height: 100vh;
+        overflow: visible;
+        position: absolute;
+        top: -6px;
+        left: 37.5rem;
+        width: auto;
+    }
+
+    .main-menu,
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* ********************** TO DO BEFORE HANDING IN ********************** */
